@@ -65,5 +65,95 @@
     "sub-categoria": "escritorios",
     "color": "marron",
     "precio": "$ 17.800"
-  }
+  },
+  [
+    {
+        "id": "9",
+        "titulo": "Escritorio Industrial",
+        "descripcion": "Escritorio Industrial C\/ estantes laterales (2)",
+        "img": "EscritorioEstructuraMetal.jpg",
+        "subcategoria": "3",
+        "color": "Madera Clara y Estructura Negra",
+        "precio": "20.076",
+        "descuento": "15",
+        "cuotas": "12"
+    },
+    {
+        "id": "10",
+        "titulo": "Set Mesa + Sillon Lounge 3 Piezas",
+        "descripcion": "Set de Jardin de 3 Piezas. Incluye un sofa Lounge de 75x143x63cm, un sofa de dos cuerpos de 77x131x63cm y un taburete de 65x65x30cm. Incluyen almohadones",
+        "img": "SillonConMesaSillon.jpg",
+        "subcategoria": "4",
+        "color": "Marron",
+        "precio": "155.501,50",
+        "descuento": "50",
+        "cuotas": "6"
+    },
+    {
+        "id": "11",
+        "titulo": "Sofa Cama Isola II",
+        "descripcion": "Moderno, sobrio, se adapta a todos tus espacios. El sof\u00e1 perfecto para los amantes del confort. Para relajarse de a 2 y distenderse. Fabricado con materiales nobles y de alta resistencia, permite un uso intensivo diario sin problemas. Este sof\u00e1 cama cuenta con un resistente sistema de brazos m\u00f3viles en su interior, los cuales facilitan la extensi\u00f3n del colch\u00f3n hacia el exterior. Su cama desplegable es de 1.80 de largo x 1.30 mts de ancho, convirti\u00e9ndose en una cama de plaza y media.",
+        "img": "SofaCamaIsola.jpg",
+        "subcategoria": "4",
+        "color": "Negro",
+        "precio": "284.960",
+        "descuento": "10",
+        "cuotas": "6"
+    },
+    {
+        "id": "12",
+        "titulo": "Sillon de 3 cuerpos esquinero",
+        "descripcion": "CARACTERISTICAS GENERALES Material: Chenille Material, Patas: Metal, Tipo: Sillon 3 Cuerpos, Modelo: Esquinero. DIMENSIONES Alto: 76 Cm, Ancho: 185 Cm, Profundidad: 75 Cm.",
+        "img": "SillonEsquinero3Cuerpos.jpg",
+        "subcategoria": "4",
+        "color": "Gris Oscuro",
+        "precio": "149.990",
+        "descuento": "20",
+        "cuotas": "12"
+    },
+    {
+        "id": "13",
+        "titulo": "Microondas BGH",
+        "descripcion": "Microndas digital. Capacidad 20 L. Monofuncion digital. Eficiencia energetica B. Control digital. Display LED blanco. Modo ahorro de eneregia (Modo eco). Diametro del plato del vidiro 255 mm. Luz interior LED. Voltage 220V\/50Hz. Consumo maximo (W) 1050. Tipo de ficha de 10A. Potencia de entrada de microondas 1050 W. Potencia de salida 700. Bloqueo para ninos.",
+        "img": "MicroondasBGHGris.jpeg",
+        "subcategoria": "5",
+        "color": "Gris",
+        "precio": "49.999,00",
+        "descuento": "0",
+        "cuotas": "6"
+    },
+    {
+        "id": "14",
+        "titulo": "Microondas Daewoo",
+        "descripcion": "La l\u00ednea de microondas Daewoo lleg\u00f3 para facilitarte tus d\u00edas. Aunque pueda parecer un electrodom\u00e9stico sencillo desde un primer momento, es una potente arma en la cocina que te puede ayudar a crear platos muy avanzados. Dise\u00f1o innovador y accesorios La libertad es absoluta, ya que podr\u00e1s llevarlo adonde desees cuando te mudes. Su display te permitir\u00e1 ser m\u00e1s preciso al momento de seleccionar el tipo de comida, configurar el tiempo y la funci\u00f3n para cocinar. Adem\u00e1s, presenta un excelente sistema de seguridad con traba especial para las personas m\u00e1s peque\u00f1as de la familia. Capacidad y eficiencia Con un volumen de 20 litros vas a poder disfrutar comidas para compartir con tus amistades y familiares. Ofrece una potencia m\u00e1xima de 700 watts que se puede regular en diferentes niveles seg\u00fan el tipo de alimento, por ejemplo, para evitar que se resequen algunos platos m\u00e1s delicados como la pasta. Con su f\u00e1cil uso, podr\u00e1s seleccionar y programar de manera pr\u00e1ctica. Lo hace todo por vos Solo debes colocar el peso de los alimentos y el microondas autom\u00e1ticamente programar\u00e1 el tiempo necesario para que el mismo se descongele.",
+        "img": "MicroondasDaewooGrisYBlanco.jpeg",
+        "subcategoria": "5",
+        "color": "Gris y blanco",
+        "precio": "33.999",
+        "descuento": "10",
+        "cuotas": "6"
+    },
+    {
+        "id": "15",
+        "titulo": "Microondas Grill Atma",
+        "descripcion": "Variedad de funciones y programas Su funci\u00f3n de grill permite dorar los alimentos para que queden crocantes, ideal para pizzas, empanadas y tartas.  Dise\u00f1o innovador y accesorios La libertad es absoluta, ya que podr\u00e1s llevarlo adonde desees cuando te mudes. Su display te permitir\u00e1 ser m\u00e1s preciso al momento de seleccionar el tipo de comida, configurar el tiempo y la funci\u00f3n para cocinar.  Adem\u00e1s, presenta un excelente sistema de seguridad con traba especial para las personas m\u00e1s peque\u00f1as de la familia.  Capacidad y eficiencia Con un volumen de 23 litros vas a poder disfrutar comidas para compartir con tus amistades y familiares. Ofrece una potencia m\u00e1xima de 800 watts que se puede regular en diferentes niveles seg\u00fan el tipo de alimento, por ejemplo, para evitar que se resequen algunos platos m\u00e1s delicados como la pasta. Con su f\u00e1cil uso, podr\u00e1s seleccionar y programar de manera pr\u00e1ctica.",
+        "img": "MicroondasAtmaGrisYNegro.jpeg",
+        "subcategoria": "5",
+        "color": "Gris y negro",
+        "precio": "43.699",
+        "descuento": "38",
+        "cuotas": "3"
+    },
+    {
+        "id": "16",
+        "titulo": "Smart Led TV Hyundai",
+        "descripcion": "Con el Smart TV 43 FHD vas a acceder a las aplicaciones en las que se encuentran tus contenidos favoritos. Adem\u00e1s, podes navegar por Internet, interactuar en redes sociales y divertirte con videojuegos. Sumergite en la pantalla Su resoluci\u00f3n Full HD muestra una clara evoluci\u00f3n frente a su antecesora. Las im\u00e1genes que vas a ver van a tener una calidad superior con un alto nivel de detalle y colores mucho m\u00e1s llamativos.",
+        "img": "TelevisorSmartHyundai43.jpg",
+        "subcategoria": "6",
+        "color": "Negro",
+        "precio": "83.996",
+        "descuento": "30",
+        "cuotas": "6"
+    },
+]
 ]
