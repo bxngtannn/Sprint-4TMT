@@ -66,8 +66,7 @@
     "color": "marron",
     "precio": "$ 17.800"
   },
-  [
-    {
+{
         "id": "9",
         "titulo": "Escritorio Industrial",
         "descripcion": "Escritorio Industrial C\/ estantes laterales (2)",
@@ -244,4 +243,4 @@
         "cuotas": "12"
     }
 ]
-]
+
