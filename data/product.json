@@ -1,0 +1,69 @@
+[
+  {
+    "id": "1",
+    "titulo": "Mesa Comedor Estilo Nordico 120cm X 70cm",
+    "descripcion": "Mesa comedor 120 cm x 70 cm estilo nordico.",
+    "img": "mesaG.jpg",
+    "sub-categoria": "mesas",
+    "color": "marron",
+    "precio": "$15.675",
+    "descuento": 20,
+    "couta": 3
+  },
+  {
+    "id": "2",
+    "titulo": "Mesa De Luz Madrid 1 Cajon Dormitorio Centro Estant - Mm",
+    "descripcion": "MESA DE LUZ MODERNA CON ESTANTE 1 CAJON DORMITORIO CENTRO ESTANT Lo primero que verás al abrir los ojos va a ser esta moderna y práctica mesa de luz que hará de tu dormitorio el lugar que siempre soñaste.Colores disponibles: Blanco, Wengue",
+    "img": "mesaLuz.jpg",
+    "sub-categoria": "mesas",
+    "color": "blanco",
+    "precio": "$9.489"
+  },
+  {
+    "id": "3",
+    "titulo": "Mesa Comedor Redonda Retro Vintage 110 Cm Diametro",
+    "descripcion": "MESA COMEDOR VINTAGE LA MESA SE ENTREGA DESARMADA MEDIDAS:Diámetro de 110 Cm Altura de 80",
+    "img": "mesaR.jpg",
+    "sub-categoria": "mesas",
+    "color": "azul",
+    "precio": "$18.000"
+  },
+  {
+    "id": "4",
+    "titulo": "Cama 2 plazas",
+    "descripcion": "Cama de 150 cm de ancho por 190 o 200 cm de largo con tela antideslizante y una altura base de 20 cm",
+    "img": "camaG.jpg",
+    "sub-categoria": "camas",
+    "color": "celeste",
+    "precio": "55000"
+  },
+  {
+    "id": "5",
+    "titulo": "Cama De Una Plaza Box Moderna Minimalista Juvenil C/ Cajones",
+    "descripcion": "Box Sommier / Cod T6440 \u2014 Envio SIN CARGO CAPITAL FEDERAL ! \u2013 (( Alrededores consulte! Bajos costos ... ))  \u00b0CARACTERISTICAS :: Espectacular Box Super Funcional 4 Cajones \u2013 \u2013 \u2013 LINEA PREMIUN \u2013 \u2013 \u2013  *Medidas del BOX: Largo: 1,95 m - Ancho 0,92 m - Alto 0,33 m * * * NO INCLUYE EL RESPALDO * * * *Cantidad de Cajones:4 (interior totalmente revestido) *Correderas met\u00e1licas *Sistema Minifix * PARA Sommier de 80 A 90cm de ancho * Organizador de Calzado Botinero en el frente * Estructura super Resistenta + 5 soportes hasta el piso ----------------- *Medidas de Cajas: -Caja 1: 32 X 176 X 16 CM - Peso: 46 kg -Caja 2: 56 X 69 X 11 CM - Peso: 23 kg -Caja 3: 26 X 96 X 7 CM - Peso: 9 kg  PESO TOTAL 77 KG ------------------------------------------------------------------------------------------ Se provee UNICAMENTE en COLOR : *BLANCO EVEREST (EV) ---------------------------------------------------------------------------------------- # Productos en caja para armar - AMV recomienda siempre nuestro servicio de armado por Personal Capacitado de nuestra empresa, CONSULTE! bajos costos",
+    "img": "camaMinimalista.jpg",
+    "sub-categoria": "camas",
+    "color": "gris opaco",
+    "precio": "53000"
+  },
+
+  {
+    "id": "6",
+    "titulo": "Cama Ba\u00fal 2 Plazas",
+    "descripcion": "Sistema hidr\u00e1ulico de m\u00e1xima calidad, preparado para levantar y cerrar la tapa sin ning\u00fan esfuerzo. El sistema de apertura europeo hace que la tapa se deslice hacia adelante sin necesidad de correr el colch\u00f3n de la pared. Mecanismo fabricado con \u00e1ngulos y planchuelas de acero, tuercas auto bloqueantes garantizando una alta durabilidad. Exclusivo sistema Feld-Stappled, preparado para las mayores exigencias de peso y movimiento, soportando hasta 300kg, la mas resistente del mercado. El tapizado en Chenille le otorga la terminaci\u00f3n de calidad y mueble Premium. El espacio de guardado de 25cm permite acomodar valijas, sabanas, zapatos, ropa, etc.  .................................................................................................................. BEDDING COMPANY Por m\u00e1s de 30 a\u00f1os acompa\u00f1ando el descanso de los argentinos, con productos de calidad y respetando los est\u00e1ndares la m\u00e1xima calidad que un descanso premium se merece.  ..................................................................................................................  GARANTIA: 1 A\u00d1OS  ..................................................................................................................  FORMAS DE PAGO: Podes pagar a trav\u00e9s de mercado pago con tarjeta de cr\u00e9dito al instante o en efectivo generando el cup\u00f3n de pago para Rapipago o Pago F\u00e1cil seg\u00fan sea tu preferencia Realizamos Facturas Consumidor Final, A y B adapt\u00e1ndonos a cada necesidad.",
+    "img": "camaBaul.jpg",
+    "sub-categoria": "camas",
+    "color": "azul",
+    "precio": "$ 131.825"
+  },
+
+  {
+    "id": "7",
+    "titulo": "Mesa De Escritorio Maximo Un Cajon Con Bandeja Para Teclado Nogal Imagen 4 de 4 de Mesa De Escritorio Maximo Un Cajon Con Bandeja Para Teclado Nogal Nuevo  |  +100 vendidos Mesa De Escritorio Maximo Un Cajon Con Bandeja Para Teclado Nogal",
+    "descripcion": "La soluci\u00f3n para tu casa u oficina est\u00e1 en el escritorio M\u00e1ximo 100, no ocupa mucho espacio y cabe perfecto tu pc o notebook. Es f\u00e1cil de armar (incluye manual de instrucciones) y la calidad de los materiales es excelente. El espesor de las placas es de 15 mm. Posee correderas met\u00e1licas que permiten que el caj\u00f3n se deslice correctamente sin interrupciones.  El producto se despacha en 1 caja:  Caja 1: 102 cm de Largo x 53 cm de Ancho x 8 cm de Alto, el peso es de 24,8 kg. El peso total del producto armado es de 24,7 kg.",
+    "img": "escritorio.jpg",
+    "sub-categoria": "escritorios",
+    "color": "marron",
+    "precio": "$ 17.800"
+  }
+]
