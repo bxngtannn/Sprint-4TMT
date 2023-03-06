@@ -1,0 +1,54 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/productRecomStyle.css">
+    <link rel="stylesheet" href="/css/productList.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="contenidoProductList">
+
+        <div class="contenedorTarjetas">
+            <% for( let i= 0; i <3; i++ ) { %>
+
+                <% productos.forEach(producto=> { %>
+                    <div class="product"><a href="/producto/<%= producto.id %>">
+                            <div class="img-prod arriba">
+                                <img src="/images/<%= producto.img %>"
+                                alt="Microondas 1">
+                            </div>
+                            <div class="abajo">
+                                <div class="descrip-prod">
+                                    <p class="nombre texto"><%=producto.titulo%></p>
+                                        <p class="cuotas">6 CUOTAS SIN INTERÉS</p>
+                                        <p class="precio texto">$<%=producto.precio
+                                                %></p>
+                                            <div class="disc">
+                                                <p>80% OFF</p>
+                                            </div>
+                                        </div>
+                                        <div class="bot-carrito">
+                                            <a href="/productCart"><span
+                                                    class="boton">Añadir al
+                                                    carrito</span></a>
+                                        </div>
+                                        <div class="administrador">
+                                            <div class="bot-carrito edit">
+                                                <a href="/productCart"><span
+                                                        class="boton ">Editar</span></a>
+                                            </div>
+                                            <div class="bot-carrito delet">
+                                                <a href="/productCart"><span
+                                                        class="boton ">Eliminar</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <% }); %>
+                                <% } %>
+                                </div>
+                            </div>
+                        </body>

@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Nunito;
+    src: url(../fonts/Nunito-VariableFont_wght.ttf);
+}
+*{
+    font-family: "Nunito";
+}
+
+a{
+    display:contents;
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+.contenido{
+    display : flex;
+    flex-direction: column;
+    }
+    .infoproducto{
+        display: flex;
+        flex-direction: row;
+        margin: 30px 15px 100px 15px;
+    
+    }
+    .derecha{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+width: 50vw;
+    }
+    .izquierda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 3vw;
+        width: 50vw;
+
+    }
+    .izquierda .botom{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 5px;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        width: 200px;
+        height: 30px;
+    }
+    .izquierda .botom:hover{
+        background-color: #738496;
+        cursor: pointer;
+        
+    }
+    span{
+        -webkit-user-select: none;
+    }
+
+    .marginbottom{
+        margin-bottom: 4vh;
+    }
+
+    .derecha img{
+        width: 45vw;
+    }
+
+    .descripcion p{
+        font-family: "Nunito";
+        font-size: 20px;
+    }
+
+    @media (max-width: 769px){
+
+        .infoproducto{
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .izquierda{
+            width: 80vw;
+        }
+        .descripcion .marginbottom{
+            text-align: center;
+        }
+
+    }
+    @media (max-width: 425px){
+
+
+        .derecha img{
+            width: 90vw;
+        }
+        .descripcion p{
+            font-size: 15px;
+        }
+        .titulo h1{
+            font-size: 25px;
+        }
+    }

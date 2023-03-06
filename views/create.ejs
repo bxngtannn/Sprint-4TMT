@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/create.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <%- include("./partials/header.ejs") %>
+    <div class="formulario-create" id="create">
+      <div class="izquierda-create">
+        <img src="images/logo2.png" width="200px" height="200px" />
+      </div>
+        <form class="derecha-create">
+          <span class="titulo">Muebles</span>
+          <div class="form-section">
+            <input type="text" placeholder="Nombre del producto"  class="textBox-1" id="nombreDeProducto"/>
+          </div>
+          <div class="form-section">
+            <textarea id="descripcion" placeholder="Descripcion"></textarea>
+          </div>
+          <div class="form-section" id="precio-img">
+            <input type="text" id="precio" placeholder="Precio"/>
+            <button class="agregarImg">Selecione una imagen</button>
+          </div>
+          <div class="form-section" id="color">
+            <span>Color</span>
+            <select>
+              <option>Rojo</option>
+              <option>Azul</option>
+              <option>Verde</option>
+              <option>Color personalizado</option>
+            </select>
+            <span>Subcategoria:</span>
+            <select >
+              <option>Sillon</option>
+              <option>Mesa</option>
+              <option>Libreria</option>
+            </select>
+          </div>
+          <div class="form-section">
+            <button class="agregar">Agregar producto</button>
+          </div>
+        </form>
+    </div>
+    <div class="cuadroNegro" id="negro">
+
+    </div>
+    <div class="contenedor-create">
+     <h1>Bienvenido al area de carga de productos</h1>
+      <div class="formulario-create" id="create-electro">
+        <div class="izquierda-create">
+          <img src="images/logo2.png" width="200px" height="200px" />
+        </div>
+          <form class="derecha-create">
+            <span class="titulo">Electrodomesticos</span>
+            <div class="form-section">
+              <input type="text" placeholder="Nombre del producto"  class="textBox-1" id="nombreDeProducto"/>
+            </div>
+            <div class="form-section">
+              <textarea id="descripcion" placeholder="Descripcion"></textarea>
+            </div>
+            <div class="form-section" id="precio-img">
+              <input type="text" id="precio" placeholder="Precio"/>
+              <button class="agregarImg">Selecione una imagen</button>
+            </div>
+            <div class="form-section" id="color">
+              <span>Color</span>
+              <select>
+                <option>Rojo</option>
+                <option>Azul</option>
+                <option>Verde</option>
+                <option>Color personalizado</option>
+              </select>
+              <span>Subcategoria:</span>
+              <select>
+                <option>Television</option>
+                <option>Microondas</option>
+                <option>Lavarropas</option>
+              </select>
+            </div>
+            <div class="form-section">
+              <button class="agregar">Agregar producto</button>
+            </div>
+          </form>
+      </div>
+      <div class="botones-form">
+      <button class="mueble" onclick="mostrarPopup()">Muebles</button>
+      <button class="electro" onclick="mostrarElectro()">Electrodomesticos</button>
+      </div>
+    </div>
+    <%- include('./partials/listproduct')%>
+
+    <script>
+function mostrarPopup() {
+	document.getElementById("create").style.display = "flex";
+  document.getElementById("negro").style.display = "block";
+}
+
+function mostrarElectro(){
+  document.getElementById("create-electro").style.display = "flex"
+  document.getElementById("negro").style.display = "block";
+}
+
+    </script>
+  </body>
+</html>

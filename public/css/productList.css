@@ -1,0 +1,58 @@
+.contenidoProductList{
+ display: flex;
+ justify-content: center;
+}
+.contenedorTarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px;
+    width: 90%;
+    height: 90%;
+    justify-content: space-between
+}
+.product .abajo{
+    height: 11.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.product{
+    margin: 15px;
+    height: 440px
+}
+.product .administrador{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+a{
+    color : black;
+    text-decoration: none;
+    
+}
+a:hover{
+    color : black;
+    
+}
+.administrador .edit .boton{
+    background-color: #a7dfa7;
+    display: none;
+}
+.administrador .delet .boton{
+    background-color: #ff0000a6;
+    display: none;
+}
+.abajo:hover .administrador  .edit .boton{
+    display:block;
+}
+.abajo:hover .administrador  .delet .boton{
+    display:block;
+}
+.administrador .edit:hover .boton{
+    transition: 1s;
+    background-color: #56c956;
+}
+.administrador .delet:hover .boton{
+    transition: 1s;
+    background-color: #ff0000db;
+}
