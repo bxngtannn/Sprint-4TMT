@@ -1,4 +1,24 @@
 [
+   {
+    "id": "1",
+    "titulo": "Mesa Comedor Estilo Nordico 120cm X 70cm",
+    "descripcion": "Mesa comedor 120 cm x 70 cm estilo nordico.",
+    "img": "mesaG.jpg",
+    "subcategoria": "1",
+    "color": "marron",
+    "precio": "$15.675",
+    "descuento": 20,
+    "couta": 3
+  },
+  {
+    "id": "2",
+    "titulo": "Mesa De Luz Madrid 1 Cajon Dormitorio Centro Estant - Mm",
+    "descripcion": "MESA DE LUZ MODERNA CON ESTANTE 1 CAJON DORMITORIO CENTRO ESTANT Lo primero que verás al abrir los ojos va a ser esta moderna y práctica mesa de luz que hará de tu dormitorio el lugar que siempre soñaste.Colores disponibles: Blanco, Wengue",
+    "img": "mesaLuz.jpg",
+    "subcategoria": "1",
+    "color": "blanco",
+    "precio": "$9.489"
+  },
  {
   "id": "3",
   "titulo": "Mesa Comedor Redonda Retro Vintage 110 Cm Diametro",
