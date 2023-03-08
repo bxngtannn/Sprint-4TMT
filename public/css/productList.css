@@ -45,14 +45,14 @@ a:hover{
 .abajo:hover .administrador  .edit .boton{
     display:block;
 }
-.abajo:hover .administrador  .delet .boton{
+.abajo:hover .administrador .delet button{
     display:block;
 }
 .administrador .edit:hover .boton{
     transition: 1s;
     background-color: #56c956;
 }
-.administrador .delet:hover .boton{
+.administrador  .delet:hover button{
     transition: 1s;
     background-color: #ff0000db;
 }

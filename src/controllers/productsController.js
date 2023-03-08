@@ -16,7 +16,7 @@ const controller = {
 
 	// Create - Form to create
 	create: (req, res) => {
-		res.render('product-create-form')
+		res.render('create')
 	},
 
 
@@ -30,7 +30,7 @@ const controller = {
 		}
 		productModel.create(newProduct)
 		console.log('cree un nuevo producto')
-		res.redirect('/')
+		res.redirect('create')
 	},
 
 
@@ -66,7 +66,7 @@ const controller = {
 
     destroy: function(req,res){
         productModel.delete(req.params.id);
-        res.redirect("/");
+        res.redirect("/create");
     }
 
 

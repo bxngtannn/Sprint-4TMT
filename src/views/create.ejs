@@ -14,35 +14,35 @@
       <div class="izquierda-create">
         <img src="images/logo2.png" width="200px" height="200px" />
       </div>
-        <form class="derecha-create">
+        <form class="derecha-create" action="/products" method="POST">
           <span class="titulo">Muebles</span>
           <div class="form-section">
-            <input type="text" placeholder="Nombre del producto"  class="textBox-1" id="nombreDeProducto"/>
+            <input type="text" placeholder="Nombre del producto" name="titulo"  class="textBox-1" id="nombreDeProducto"/>
           </div>
           <div class="form-section">
-            <textarea id="descripcion" placeholder="Descripcion"></textarea>
+            <textarea id="descripcion" name="descripcion" placeholder="Descripcion"></textarea>
           </div>
           <div class="form-section" id="precio-img">
-            <input type="text" id="precio" placeholder="Precio"/>
-            <button class="agregarImg">Selecione una imagen</button>
+            <input type="number" id="precio" name="precio" placeholder="Precio"/>
+            <button class="agregarImg">Seleccione una imagen</button>
           </div>
           <div class="form-section" id="color">
             <span>Color</span>
-            <select>
-              <option>Rojo</option>
-              <option>Azul</option>
-              <option>Verde</option>
-              <option>Color personalizado</option>
+            <select name="color">
+              <option value="">Elegir color</option>
+              <option value="rojo">Rojo</option>
+              <option value="azul">Azul</option>
+              <option value="verde">Verde</option>
             </select>
             <span>Subcategoria:</span>
-            <select >
-              <option>Sillon</option>
-              <option>Mesa</option>
-              <option>Libreria</option>
+            <select name="subcategoria" required>
+              <option value="4">Sillon</option>
+              <option value="1">Mesa</option>
+              <option value="3">Escritorios</option>
             </select>
           </div>
           <div class="form-section">
-            <button class="agregar">Agregar producto</button>
+            <button  type="submit" class="agregar">Agregar producto</button>
           </div>
         </form>
     </div>
@@ -106,5 +106,7 @@ function mostrarElectro(){
 }
 
     </script>
+
+  <%- include('./partials/footer')%>
   </body>
 </html>

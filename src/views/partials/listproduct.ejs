@@ -21,11 +21,11 @@
                             <div class="abajo">
                                 <div class="descrip-prod">
                                     <p class="nombre texto"><%=producto.titulo%></p>
-                                        <p class="cuotas">6 CUOTAS SIN INTERÉS</p>
+                                        <p class="cuotas"><%= producto.cuotas %> cuotas sin interés.</p>
                                         <p class="precio texto">$<%=producto.precio
                                                 %></p>
                                             <div class="disc">
-                                                <p>80% OFF</p>
+                                                <p><%=producto.descuento %>%</p>
                                             </div>
                                         </div>
                                         <div class="bot-carrito">
@@ -39,8 +39,9 @@
                                                         class="boton ">Editar</span></a>
                                             </div>
                                             <div class="bot-carrito delet">
-                                                <a href="/productCart"><span
-                                                        class="boton ">Eliminar</span></a>
+                                                <form action="/products/delete/<%= producto.id %>?_method=DELETE" method="POST" class="form-delete">
+                                                    <button type="submit" class="action-button delete">ELIMINAR</button>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
