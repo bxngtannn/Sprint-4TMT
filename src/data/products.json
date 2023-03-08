@@ -1,24 +1,24 @@
 [
-   {
-    "id": "1",
-    "titulo": "Mesa Comedor Estilo Nordico 120cm X 70cm",
-    "descripcion": "Mesa comedor 120 cm x 70 cm estilo nordico.",
-    "img": "mesaG.jpg",
-    "subcategoria": "1",
-    "color": "marron",
-    "precio": "$15.675",
-    "descuento": 20,
-    "couta": 3
-  },
-  {
-    "id": "2",
-    "titulo": "Mesa De Luz Madrid 1 Cajon Dormitorio Centro Estant - Mm",
-    "descripcion": "MESA DE LUZ MODERNA CON ESTANTE 1 CAJON DORMITORIO CENTRO ESTANT Lo primero que verás al abrir los ojos va a ser esta moderna y práctica mesa de luz que hará de tu dormitorio el lugar que siempre soñaste.Colores disponibles: Blanco, Wengue",
-    "img": "mesaLuz.jpg",
-    "subcategoria": "1",
-    "color": "blanco",
-    "precio": "$9.489"
-  },
+ {
+  "id": "1",
+  "titulo": "Mesa Comedor Estilo Nordico 120cm X 70cm",
+  "descripcion": "Mesa comedor 120 cm x 70 cm estilo nordico.",
+  "img": "mesaG.jpg",
+  "subcategoria": "1",
+  "color": "marron",
+  "precio": "15675",
+  "descuento": 20,
+  "couta": 3
+ },
+ {
+  "id": "2",
+  "titulo": "Mesa De Luz Madrid 1 Cajon Dormitorio Centro Estant - Mm",
+  "descripcion": "MESA DE LUZ MODERNA CON ESTANTE 1 CAJON DORMITORIO CENTRO ESTANT Lo primero que verás al abrir los ojos va a ser esta moderna y práctica mesa de luz que hará de tu dormitorio el lugar que siempre soñaste.Colores disponibles: Blanco, Wengue",
+  "img": "mesaLuz.jpg",
+  "subcategoria": "1",
+  "color": "blanco",
+  "precio": "9489"
+ },
  {
   "id": "3",
   "titulo": "Mesa Comedor Redonda Retro Vintage 110 Cm Diametro",
@@ -26,7 +26,7 @@
   "img": "mesaR.jpg",
   "subcategoria": "1",
   "color": "azul",
-  "precio": "$18.000",
+  "precio": "18000",
   "descuento": "20",
   "cuota": "3",
   "category": ""
@@ -62,7 +62,7 @@
   "img": "camaBaul.jpg",
   "subcategoria": "2",
   "color": "azul",
-  "precio": "$ 131.825",
+  "precio": "131825",
   "descuento": "20",
   "cuota": "3",
   "category": ""
@@ -74,22 +74,18 @@
   "img": "escritorio.jpg",
   "subcategoria": "3",
   "color": "marron",
-  "precio": "$ 17.800",
+  "precio": "17800",
   "descuento": "20",
   "cuota": "3",
   "category": ""
  },
  {
   "id": "9",
-  "titulo": "Escritorio Industrial",
-  "descripcion": "Escritorio Industrial C/ estantes laterales (2)",
-  "img": "EscritorioEstructuraMetal.jpg",
-  "subcategoria": "3",
-  "color": "Madera Clara y Estructura Negra",
-  "precio": "20.076",
-  "descuento": "15",
-  "cuotas": "12",
-  "category": "in-sale"
+  "titulo": "Escritorio Industrial 12",
+  "descripcion": "Escritorio Industrial C/ estantes laterales (2).",
+  "precio": "20076",
+  "color": "azul",
+  "subcategoria": "8"
  },
  {
   "id": "11",
@@ -98,20 +94,19 @@
   "img": "SofaCamaIsola.jpg",
   "subcategoria": "4",
   "color": "Negro",
-  "precio": "284.960",
+  "precio": "284960",
   "descuento": "10",
   "cuotas": "6"
  },
  {
   "id": "12",
   "titulo": "Sillon de 3 cuerpos esquinero",
+  "category": "",
   "descripcion": "CARACTERISTICAS GENERALES Material: Chenille Material, Patas: Metal, Tipo: Sillon 3 Cuerpos, Modelo: Esquinero. DIMENSIONES Alto: 76 Cm, Ancho: 185 Cm, Profundidad: 75 Cm.",
-  "img": "SillonEsquinero3Cuerpos.jpg",
-  "subcategoria": "4",
-  "color": "Gris Oscuro",
-  "precio": "149.990",
-  "descuento": "20",
-  "cuotas": "12"
+  "precio": "149990",
+  "img": "",
+  "color": "",
+  "subcategoria": "4"
  },
  {
   "id": "13",
@@ -119,9 +114,9 @@
   "descripcion": "Microndas digital. Capacidad 20 L. Monofuncion digital. Eficiencia energetica B. Control digital. Display LED blanco. Modo ahorro de eneregia (Modo eco). Diametro del plato del vidiro 255 mm. Luz interior LED. Voltage 220V/50Hz. Consumo maximo (W) 1050. Tipo de ficha de 10A. Potencia de entrada de microondas 1050 W. Potencia de salida 700. Bloqueo para ninos.",
   "img": "MicroondasBGHGris.jpeg",
   "subcategoria": "5",
-  "color": "Gris",
-  "precio": "49.999,00",
-  "descuento": "0",
+  "color": "",
+  "precio": "49999",
+  "descuento": "10",
   "cuotas": "6"
  },
  {
@@ -131,7 +126,7 @@
   "img": "MicroondasDaewooGrisYBlanco.jpg",
   "subcategoria": "5",
   "color": "Gris y blanco",
-  "precio": "33.999",
+  "precio": "33999",
   "descuento": "10",
   "cuotas": "6"
  },
@@ -142,7 +137,7 @@
   "img": "MicroondasAtmaGrisYNegro.jpg",
   "subcategoria": "5",
   "color": "Gris y negro",
-  "precio": "43.699",
+  "precio": "43699",
   "descuento": "38",
   "cuotas": "3"
  },
@@ -153,7 +148,7 @@
   "img": "TelevisorSmartHyundai43.jpg",
   "subcategoria": "6",
   "color": "Negro",
-  "precio": "83.996",
+  "precio": "83996",
   "descuento": "30",
   "cuotas": "6"
  },
@@ -164,7 +159,7 @@
   "img": "tvsansug17.jpg",
   "subcategoria": "6",
   "color": "Negro",
-  "precio": "159.999",
+  "precio": "159999",
   "descuento": "10",
   "cuotas": "3"
  },
@@ -175,7 +170,7 @@
   "img": "tvohilips18.jpg",
   "subcategoria": "6",
   "color": "Negro",
-  "precio": "74.999",
+  "precio": "74999",
   "descuento": "20",
   "cuotas": "3"
  },
@@ -186,21 +181,19 @@
   "img": "lavarropas19.jpg",
   "subcategoria": "7",
   "color": "gris",
-  "precio": "119.999",
+  "precio": "119999",
   "descuento": "15",
-  "cuotas": "3"
+  "cuotas": "3",
+  "category": "in-sale"
  },
  {
   "id": "20",
   "titulo": "Lavarropas Samsung",
   "descripcion": "Samsung apuesta por la innovación y el diseño de vanguardia en los productos de su línea blanca. Ofrece soluciones para el lavado que priorizan la eficiencia de cada uno de sus programas y con ello, el cuidado de tus prendas más delicadas.  Trabaja solo Únicamente necesita que se introduzcan los productos de limpieza y se elija el programa deseado. A diferencia de los semiautomáticos, no requiere que estés presente en todas las etapas del proceso, por lo que vas a tener prendas limpias y perfumadas sin esfuerzo.  Tecnología inverter Reduce el ruido y las vibraciones, aún en velocidad máxima de centrifugado. A su vez, requiere un menor consumo de agua y electricidad.  Eco-Friendly El programa Eco combina ahorro de energía, tiempo y eficiencia para lograr una mejor limpieza con menos cantidad de agua. De esta forma, vas a hacer el lavado diario aportando al cuidado del planeta.  Remoción efectiva de manchas La tecnología Bubble permite que el jabón penetre de una forma más rápida y uniforme. Así, logra la misma eficacia en frío de como lo haría en caliente, pero sin maltratar las telas. hará que el lavado diario sea más sencillo. Evitará los residuos de jabón, dejará tu ropa impecable sin dañarla y te permitirá ahorrar tiempo.  Trabaja solo Únicamente necesita que se introduzcan los productos de limpieza y se elija el programa deseado. A diferencia de los semiautomáticos, no requiere que estés presente en todas las etapas del proceso, por lo que vas a tener prendas limpias y perfumadas sin esfuerzo.",
+  "precio": "262590",
   "img": "lavarropas20.jpg",
-  "subcategoria": "7",
-  "color": "negro",
-  "precio": "262.590",
-  "descuento": "20",
-  "cuotas": "12",
-  "category": "in-sale"
+  "color": "",
+  "subcategoria": "7"
  },
  {
   "id": "21",
@@ -209,7 +202,7 @@
   "img": "lavarropas21.jpg",
   "subcategoria": "7",
   "color": "negro",
-  "precio": "262.590",
+  "precio": "262590",
   "descuento": "0",
   "cuotas": "3"
  },
@@ -220,7 +213,7 @@
   "img": "cafetera22.jpg",
   "subcategoria": "8",
   "color": "negro mate",
-  "precio": "220.999",
+  "precio": "220999",
   "descuento": "11",
   "cuotas": "6"
  },
@@ -231,7 +224,7 @@
   "img": "cafetera23.jpg",
   "subcategoria": "8",
   "color": "gris",
-  "precio": "13.499",
+  "precio": "13499",
   "descuento": "10",
   "cuotas": "3"
  },
@@ -242,18 +235,18 @@
   "img": "cafetera24.jpg",
   "subcategoria": "8",
   "color": "rojo",
-  "precio": "144.999",
+  "precio": "144999",
   "descuento": "20",
   "cuotas": "12",
   "category": "in-sale"
  },
  {
-  "titulo": "joidjsljf",
-  "descripcion": "fdsijfdslkf",
-  "precio": "34243",
-  "color": "",
-  "subcategoria": "4",
-  "image": "cafetera24.jpg",
+  "titulo": "qewr",
+  "descripcion": "et",
+  "precio": "25656",
+  "color": "verde",
+  "subcategoria": "1",
+  "image": "EscritorioEstructuraMetal.jpg",
   "id": 25
  }
 ]

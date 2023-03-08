@@ -17,18 +17,18 @@
         <form class="derecha-create" action="/products" method="POST">
           <span class="titulo">Muebles</span>
           <div class="form-section">
-            <input type="text" placeholder="Nombre del producto" name="titulo"  class="textBox-1" id="nombreDeProducto"/>
+            <input type="text" placeholder="Nombre del producto" name="titulo"  class="textBox-1" id="nombreDeProducto" required/>
           </div>
           <div class="form-section">
-            <textarea id="descripcion" name="descripcion" placeholder="Descripcion"></textarea>
+            <textarea id="descripcion" name="descripcion" placeholder="Descripcion" required></textarea>
           </div>
           <div class="form-section" id="precio-img">
-            <input type="number" id="precio" name="precio" placeholder="Precio"/>
+            <input type="number" id="precio" name="precio" placeholder="Precio" required/>
             <button class="agregarImg">Seleccione una imagen</button>
           </div>
           <div class="form-section" id="color">
             <span>Color</span>
-            <select name="color">
+            <select name="color" required>
               <option value="">Elegir color</option>
               <option value="rojo">Rojo</option>
               <option value="azul">Azul</option>

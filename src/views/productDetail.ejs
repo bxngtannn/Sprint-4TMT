@@ -60,11 +60,12 @@
                                     id="nombreDeProducto" value="<%= producto.titulo%>" />
                             </div>
                             <div class="form-section">
+                                <input type="texto" name="category"  value="<%= producto.categoria %>" style="display: none;"/>
                                 <textarea id="descripcion" name="descripcion" placeholder="descripcion"><%= producto.descripcion %></textarea>
                             </div>
                             <div class="form-section" id="precio-img">
                                 <input type="number" id="precio" name="precio" placeholder="Precio" value="<%= producto.precio %>" />
-                                <button class="agregarImg">Seleccione una imagen</button>
+                                <button class="agregarImg"><input type="file" name="img" value=" <%= producto.img %>"></button>
                             </div>
                             <div class="form-section" id="color">
                                 <span>Color</span>
@@ -89,7 +90,7 @@
                             </div>
                             <div class="form-section">
                                 <button type="submit" class="agregar">Agregar producto</button>
-                            <button class="agregar" id="cancel" onclick="cancel()">Canselar</button>
+                            <button class="agregar" id="cancel" onclick="cancel()">Cancelar</button>
                                 
                             </div>
 

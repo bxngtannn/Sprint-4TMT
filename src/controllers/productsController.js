@@ -26,7 +26,7 @@ const controller = {
 		// Atrapo todos los campos del formulario
 		const newProduct = {
 			...req.body,
-			image: 'cafetera24.jpg'
+			image: '/images/EscritorioEstructuraMetal.jpg'
 		}
 		productModel.create(newProduct)
 		console.log('cree un nuevo producto')
