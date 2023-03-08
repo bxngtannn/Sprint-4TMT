@@ -26,7 +26,7 @@ const controller = {
 		// Atrapo todos los campos del formulario
 		const newProduct = {
 			...req.body,
-			image: 'default-image.png'
+			image: 'cafetera24.jpg'
 		}
 		productModel.create(newProduct)
 		console.log('cree un nuevo producto')
@@ -59,7 +59,7 @@ const controller = {
 		}
 
 		productModel.update(productToEdit)
-		res.redirect("/");
+		res.redirect("/producto/"+req.params.id);
 
 	},
 

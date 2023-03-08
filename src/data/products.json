@@ -226,5 +226,14 @@
   "descuento": "20",
   "cuotas": "12",
   "category": "in-sale"
+ },
+ {
+  "titulo": "joidjsljf",
+  "descripcion": "fdsijfdslkf",
+  "precio": "34243",
+  "color": "",
+  "subcategoria": "4",
+  "image": "cafetera24.jpg",
+  "id": 25
  }
 ]
