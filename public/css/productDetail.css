@@ -24,7 +24,7 @@ a:hover{
     .infoproducto{
         display: flex;
         flex-direction: row;
-        margin: 30px 15px 100px 15px;
+        margin: 20px 35px 0px 35px;
     
     }
    .infoproducto .derecha{
@@ -38,7 +38,7 @@ width: 50vw;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        margin-right: 3vw;
+        margin: 15px;
         width: 50vw;
 
     }
@@ -53,7 +53,9 @@ width: 50vw;
         text-align: center;
         width: 200px;
         height: 30px;
+        transition: background-color 0.5s;
     }
+    
     .izquierda .botom:hover{
         background-color: #738496;
         cursor: pointer;
@@ -68,12 +70,12 @@ width: 50vw;
     }
 
     .derecha img{
-        width: 45vw;
+        width: 450px;
     }
 
     .descripcion p{
         font-family: "Nunito";
-        font-size: 20px;
+        font-size: 18px;
     }
 
 
