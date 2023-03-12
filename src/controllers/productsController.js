@@ -66,7 +66,7 @@ const controller = {
 
     destroy: function(req,res){
         productModel.delete(req.params.id);
-        res.redirect("/create");
+        res.redirect("/productList");
     }
 
 

@@ -8,23 +8,15 @@
   "color": "marron",
   "precio": "15675",
   "descuento": "20",
-<<<<<<< HEAD
-  "couta": "3"
- },
- {
-  "id": "2",
-  "titulo": "Mesa De Luz Madrid 1 Cajon Dormitorio Centro Estant - Mm",
-  "category": "",
-=======
   "cuotas": "3"
  },
  {
   "id": "2",
   "titulo": "Mesa De Luz Madrid 1",
->>>>>>> 6dd752db33aeb85ad4eb63367ca7c5c6437d8e87
+  "category": "",
   "descripcion": "MESA DE LUZ MODERNA CON ESTANTE 1 CAJON DORMITORIO CENTRO ESTANT Lo primero que verás al abrir los ojos va a ser esta moderna y práctica mesa de luz que hará de tu dormitorio el lugar que siempre soñaste.Colores disponibles: Blanco, Wengue",
   "precio": "9489",
-  "img": "",
+  "img": "mesaLuz.jpg",
   "color": "",
   "subcategoria": "1"
  },
@@ -96,14 +88,9 @@
   "precio": "20076",
   "color": "azul",
   "subcategoria": "8",
-<<<<<<< HEAD
   "descuento": "20",
-  "couta": "3",
+  "cuota": "3",
   "category": ""
-=======
-  "descuento": "10",
-  "cuotas": "6"
->>>>>>> 6dd752db33aeb85ad4eb63367ca7c5c6437d8e87
  },
  {
   "id": "11",
@@ -122,32 +109,17 @@
   "category": "",
   "descripcion": "CARACTERISTICAS GENERALES Material: Chenille Material, Patas: Metal, Tipo: Sillon 3 Cuerpos, Modelo: Esquinero. DIMENSIONES Alto: 76 Cm, Ancho: 185 Cm, Profundidad: 75 Cm.",
   "precio": "149990",
-<<<<<<< HEAD
-  "img": "",
-  "color": "",
-  "subcategoria": "4",
-  "couta": "3",
-  "descuento": "20"
-=======
   "img": "SillonEsquinero3Cuerpos.jpg",
   "color": "Negro",
   "subcategoria": "4",
   "descuento": "25",
   "cuotas": "6"
->>>>>>> 6dd752db33aeb85ad4eb63367ca7c5c6437d8e87
  },
  {
   "id": "13",
   "titulo": "Microondas BGH",
   "category": "",
   "descripcion": "Microndas digital. Capacidad 20 L. Monofuncion digital. Eficiencia energetica B. Control digital. Display LED blanco. Modo ahorro de eneregia (Modo eco). Diametro del plato del vidiro 255 mm. Luz interior LED. Voltage 220V/50Hz. Consumo maximo (W) 1050. Tipo de ficha de 10A. Potencia de entrada de microondas 1050 W. Potencia de salida 700. Bloqueo para ninos.",
-<<<<<<< HEAD
-  "img": "MicroondasBGHGris.jpeg",
-  "subcategoria": "5",
-  "category": "",
-  "color": "",
-=======
->>>>>>> 6dd752db33aeb85ad4eb63367ca7c5c6437d8e87
   "precio": "49999",
   "img": "MicroondasBGHGris.jpeg",
   "color": "",
@@ -281,51 +253,5 @@
   "descuento": "20",
   "cuotas": "12",
   "category": "in-sale"
- },
- {
-  "id": 25,
-  "titulo": "qewr",
-  "category": "",
-  "descripcion": "et",
-  "precio": "25656",
-  "img": "lavarropas19.jpg",
-  "color": "verde",
-  "subcategoria": "1",
-<<<<<<< HEAD
-  "image": "EscritorioEstructuraMetal.jpg",
-  "id": 25
- },
- {
-  "titulo": "fdfdsf",
-  "descripcion": "dsfdfs",
-  "precio": "3223",
-  "color": "rojo",
-  "subcategoria": "3",
-  "image": "/images/EscritorioEstructuraMetal.jpg",
-  "id": 26
- },
- {
-  "id": 27,
-  "titulo": "sad",
-  "category": "1",
-  "descripcion": "asddas",
-  "precio": "3212",
-  "img": "",
-  "color": "rojo",
-  "subcategoria": "2",
-  "image": "/images/EscritorioEstructuraMetal.jpg"
- },
- {
-  "titulo": "hola",
-  "descripcion": "gfdgfdgfdg",
-  "precio": "2000",
-  "color": "rojo",
-  "categoria": "1",
-  "subcategoria": "2",
-  "image": "/images/EscritorioEstructuraMetal.jpg",
-  "id": 28
-=======
-  "image": "EscritorioEstructuraMetal.jpg"
->>>>>>> 6dd752db33aeb85ad4eb63367ca7c5c6437d8e87
  }
 ]
