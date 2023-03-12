@@ -39,10 +39,15 @@
     margin: 4px;
 }
 
+.img-prod.arriba {
+    height: 225px
+}
+
 .img-prod img{
-    height: 220px;
-    width: 220px;
-    margin-top: 6px;
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    margin: auto;
 }
 
 .abajo{
