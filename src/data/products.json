@@ -7,17 +7,18 @@
   "subcategoria": "1",
   "color": "marron",
   "precio": "15675",
-  "descuento": 20,
-  "couta": 3
+  "descuento": "20",
+  "couta": "3"
  },
  {
   "id": "2",
   "titulo": "Mesa De Luz Madrid 1 Cajon Dormitorio Centro Estant - Mm",
+  "category": "",
   "descripcion": "MESA DE LUZ MODERNA CON ESTANTE 1 CAJON DORMITORIO CENTRO ESTANT Lo primero que verás al abrir los ojos va a ser esta moderna y práctica mesa de luz que hará de tu dormitorio el lugar que siempre soñaste.Colores disponibles: Blanco, Wengue",
-  "img": "mesaLuz.jpg",
-  "subcategoria": "1",
-  "color": "blanco",
-  "precio": "9489"
+  "precio": "9489",
+  "img": "",
+  "color": "",
+  "subcategoria": "1"
  },
  {
   "id": "3",
@@ -85,7 +86,10 @@
   "descripcion": "Escritorio Industrial C/ estantes laterales (2).",
   "precio": "20076",
   "color": "azul",
-  "subcategoria": "8"
+  "subcategoria": "8",
+  "descuento": "20",
+  "couta": "3",
+  "category": ""
  },
  {
   "id": "11",
@@ -106,7 +110,9 @@
   "precio": "149990",
   "img": "",
   "color": "",
-  "subcategoria": "4"
+  "subcategoria": "4",
+  "couta": "3",
+  "descuento": "20"
  },
  {
   "id": "13",
@@ -114,6 +120,7 @@
   "descripcion": "Microndas digital. Capacidad 20 L. Monofuncion digital. Eficiencia energetica B. Control digital. Display LED blanco. Modo ahorro de eneregia (Modo eco). Diametro del plato del vidiro 255 mm. Luz interior LED. Voltage 220V/50Hz. Consumo maximo (W) 1050. Tipo de ficha de 10A. Potencia de entrada de microondas 1050 W. Potencia de salida 700. Bloqueo para ninos.",
   "img": "MicroondasBGHGris.jpeg",
   "subcategoria": "5",
+  "category": "",
   "color": "",
   "precio": "49999",
   "descuento": "10",
@@ -139,7 +146,8 @@
   "color": "Gris y negro",
   "precio": "43699",
   "descuento": "38",
-  "cuotas": "3"
+  "cuotas": "3",
+  "category": ""
  },
  {
   "id": "16",
@@ -150,7 +158,8 @@
   "color": "Negro",
   "precio": "83996",
   "descuento": "30",
-  "cuotas": "6"
+  "cuotas": "6",
+  "category": ""
  },
  {
   "id": "17",
@@ -161,7 +170,8 @@
   "color": "Negro",
   "precio": "159999",
   "descuento": "10",
-  "cuotas": "3"
+  "cuotas": "3",
+  "category": ""
  },
  {
   "id": "18",
@@ -172,7 +182,8 @@
   "color": "Negro",
   "precio": "74999",
   "descuento": "20",
-  "cuotas": "3"
+  "cuotas": "3",
+  "category": ""
  },
  {
   "id": "19",
@@ -193,7 +204,8 @@
   "precio": "262590",
   "img": "lavarropas20.jpg",
   "color": "",
-  "subcategoria": "7"
+  "subcategoria": "7",
+  "category": ""
  },
  {
   "id": "21",
@@ -201,6 +213,7 @@
   "descripcion": "El lavasecarropas Kanji XPB55-655S ofrece gran comodidad y un uso eficaz para el lavado de tu ropa. Su doble función hará que ahorres tiempo y espacio.",
   "img": "lavarropas21.jpg",
   "subcategoria": "7",
+  "category": "",
   "color": "negro",
   "precio": "262590",
   "descuento": "0",
@@ -212,6 +225,7 @@
   "descripcion": "Regalate una pausa Empezá tu día con energía y de la mejor manera, disfrutando de la textura y calidad de un buen café en la comodidad de tu casa.  Desayuno al instante Si te apasiona el café molido no vas a poder resistirte al exquisito aroma de un expreso por las mañanas. Prepará los mejores cafés de manera sencilla y rápida.  Sabor intenso en minutos Preparar café de manera rápida y sencilla es posible. Disfrutá del aroma y la temperatura ideal de tu infusión preferida en cualquier momento del día",
   "img": "cafetera22.jpg",
   "subcategoria": "8",
+  "category": "",
   "color": "negro mate",
   "precio": "220999",
   "descuento": "11",
@@ -223,6 +237,7 @@
   "descripcion": "Regalate una pausa Empezá tu día con energía y de la mejor manera, disfrutando de la textura y calidad de un buen café en la comodidad de tu casa.  Suave y aromático La mejor opción para cualquier momento del día. Elegí el café molido que más te guste y preparate para vivir una experiencia exquisita.  Café para paladares exigentes En pocos minutos y siguiendo simples pasos tu café va a estar listo con resultados profesionales. Programá tu cafetera y empezá a disfrutar de su aroma e intenso sabor.  Diseño de vanguardia y extra duración De estilo elegante y moderno, el acero inoxidable se convierte en una ventaja que podés aprovechar para mantener tu cafetera siempre limpia y reluciente.  Tu café listo El timer te permite establecer el horario de encendido de la máquina para que tengas tu café preparado en el momento que necesites.",
   "img": "cafetera23.jpg",
   "subcategoria": "8",
+  "category": "",
   "color": "gris",
   "precio": "13499",
   "descuento": "10",
@@ -248,5 +263,35 @@
   "subcategoria": "1",
   "image": "EscritorioEstructuraMetal.jpg",
   "id": 25
+ },
+ {
+  "titulo": "fdfdsf",
+  "descripcion": "dsfdfs",
+  "precio": "3223",
+  "color": "rojo",
+  "subcategoria": "3",
+  "image": "/images/EscritorioEstructuraMetal.jpg",
+  "id": 26
+ },
+ {
+  "id": 27,
+  "titulo": "sad",
+  "category": "1",
+  "descripcion": "asddas",
+  "precio": "3212",
+  "img": "",
+  "color": "rojo",
+  "subcategoria": "2",
+  "image": "/images/EscritorioEstructuraMetal.jpg"
+ },
+ {
+  "titulo": "hola",
+  "descripcion": "gfdgfdgfdg",
+  "precio": "2000",
+  "color": "rojo",
+  "categoria": "1",
+  "subcategoria": "2",
+  "image": "/images/EscritorioEstructuraMetal.jpg",
+  "id": 28
  }
 ]
