@@ -9,8 +9,7 @@ const controller = {
 	detail: (req, res) => {
 		const product = productModel.find(req.params.id)
 		res.render('detail', {
-			product,
-			toThousand
+			product, toThousand
 		})
 	},
 
@@ -66,7 +65,7 @@ const controller = {
 
     destroy: function(req,res){
         productModel.delete(req.params.id);
-        res.redirect("/create");
+        res.redirect("/productList");
     }
 
 

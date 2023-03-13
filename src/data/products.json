@@ -2,12 +2,22 @@
  {
   "id": "1",
   "titulo": "Mesa Comedor Estilo Nordico",
+<<<<<<< HEAD
   "category": "",
   "descripcion": "Mesa comedor 120 cm x 70 cm estilo nordico.",
   "precio": "15675",
   "img": "",
   "color": "",
   "subcategoria": "1"
+=======
+  "descripcion": "Mesa comedor 120 cm x 70 cm estilo nordico.",
+  "img": "mesaG.jpg",
+  "subcategoria": "1",
+  "color": "marron",
+  "precio": "15675",
+  "descuento": "20",
+  "cuotas": "3"
+>>>>>>> 28be683f91285fb3e1be8b526ec333f960f1769f
  },
  {
   "id": "2",
@@ -15,7 +25,8 @@
   "category": "",
   "descripcion": "MESA DE LUZ MODERNA CON ESTANTE 1 CAJON DORMITORIO CENTRO ESTANT Lo primero que verás al abrir los ojos va a ser esta moderna y práctica mesa de luz que hará de tu dormitorio el lugar que siempre soñaste.Colores disponibles: Blanco, Wengue",
   "precio": "9489",
-  "img": "",
+  "img": "mesaLuz.jpg",
+  "descuento": "10",
   "color": "",
   "subcategoria": "1"
  },
@@ -85,8 +96,14 @@
   "precio": "20076",
   "color": "azul",
   "subcategoria": "8",
+<<<<<<< HEAD
   "descuento": "10",
   "cuotas": "6"
+=======
+  "descuento": "20",
+  "cuota": "3",
+  "category": ""
+>>>>>>> 28be683f91285fb3e1be8b526ec333f960f1769f
  },
  {
   "id": "11",
@@ -247,6 +264,7 @@
   "descuento": "20",
   "cuotas": "12",
   "category": "in-sale"
+<<<<<<< HEAD
  },
  {
   "id": 25,
@@ -258,5 +276,7 @@
   "color": "verde",
   "subcategoria": "1",
   "image": "EscritorioEstructuraMetal.jpg"
+=======
+>>>>>>> 28be683f91285fb3e1be8b526ec333f960f1769f
  }
 ]
