@@ -31,7 +31,7 @@
                             $<%=toThousand(producto.precio) %>
                         </span>
                         <span style="color: rgb(59, 227, 73);">
-                            <%=toThousand(producto.descuento) %>%OFF
+                            <%=parseInt(producto.descuento) %>%OFF
                         </span>
                         <h2>$<%=toThousand(producto.precio-((producto.precio*producto.descuento) /100)) %>
                         </h2>
