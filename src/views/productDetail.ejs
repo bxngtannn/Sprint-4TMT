@@ -14,7 +14,7 @@
     <%- include('./partials/header')%>
 
 
-        <div class="contenido">
+        <div class="contenido" id="contenido">
             <div class="infoproducto">
                 <div class="izquierda">
                     <div class="titulo">
@@ -43,13 +43,13 @@
                             class="form-delete">
                             <button type="submit" class="action-button delete">ELIMINAR</button>
                         </form>
-                        <button class="mueble" onclick="mostrarPopup()">Editar</button>
+                        <button class="mueble" onclick="mostrarPopup()"><a href="#negro">Editar</a></button>
                     </div>
 
 
 
 
-                    <div class="formulario-edit" id="create">
+                    <div class="formulario-edit" id="edit">
                         <div class="izquierda-create">
                             <img src="/images/logo2.png" width="200px" height="200px" />
                         </div>
@@ -115,12 +115,13 @@
 
             <script>
                 function mostrarPopup() {
-                    document.getElementById("create").style.display = "flex";
+                    document.getElementById("edit").style.display = "flex";
+                    document.getElementById("contenido").style.overflow = "hidden";
                     document.getElementById("negro").style.display = "block";
                 }
 
                 function cancel() {
-                    document.getElementById("create").style.display = "none";
+                    document.getElementById("edit").style.display = "none";
                     document.getElementById("negro").style.display = "none";
                 }
 
