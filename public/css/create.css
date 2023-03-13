@@ -151,7 +151,7 @@ align-items: center;
 }
 
 
-.form-section button{
+.form-section button,.form-section span{
   width: 130px;
   cursor: pointer;
   border-radius: 5px;
