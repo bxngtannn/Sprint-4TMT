@@ -17,21 +17,19 @@
   "descripcion": "MESA DE LUZ MODERNA CON ESTANTE 1 CAJON DORMITORIO CENTRO ESTANT Lo primero que verás al abrir los ojos va a ser esta moderna y práctica mesa de luz que hará de tu dormitorio el lugar que siempre soñaste.Colores disponibles: Blanco, Wengue",
   "precio": "9489",
   "img": "mesaLuz.jpg",
-  "descuento":"10",
+  "descuento": "10",
   "color": "",
   "subcategoria": "1"
  },
  {
   "id": "3",
   "titulo": "Mesa Comedor Redonda",
+  "category": "",
   "descripcion": "MESA COMEDOR VINTAGE LA MESA SE ENTREGA DESARMADA MEDIDAS:Diámetro de 110 Cm Altura de 80",
-  "img": "mesaR.jpg",
-  "subcategoria": "1",
-  "color": "azul",
   "precio": "18000",
-  "descuento": "10",
-  "cuotas": "3",
-  "category": "in-sale"
+  "img": "mesaR.jpg",
+  "color": "azul",
+  "subcategoria": "1"
  },
  {
   "id": "4",
