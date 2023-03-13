@@ -9,8 +9,7 @@ const controller = {
 	detail: (req, res) => {
 		const product = productModel.find(req.params.id)
 		res.render('detail', {
-			product,
-			toThousand
+			product, toThousand
 		})
 	},
 

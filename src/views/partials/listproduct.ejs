@@ -22,8 +22,7 @@
                                 <div class="descrip-prod">
                                     <p class="nombre texto"><%=producto.titulo%></p>
                                         <p class="cuotas"><%= producto.cuotas %> cuotas sin interés.</p>
-                                        <p class="precio texto">$<%=producto.precio
-                                                %></p>
+                                        <p class="precio texto">$<%=toThousand(producto.precio) %></p>
                                             <div class="disc">
                                                 <p><%=producto.descuento %>%</p>
                                             </div>

@@ -23,7 +23,7 @@
               </div>
               <div class="detalles">
                 <p><%= productos[0].titulo %></p>
-                <p class="precio"><%= productos[0].precio %></p>
+                <p class="precio">$<%=toThousand(productos[0].precio) %></p>
                 <button type="reset">Eliminar</button>
               </div>
             </div>
@@ -40,7 +40,7 @@
               </div>
               <div class="detalles">
                 <p><%= productos[1].titulo %></p>
-                <p class="precio"><%= productos[1].precio %></p>
+                <p class="precio">$<%=toThousand(productos[1].precio) %></p>
                 <button type="reset">Eliminar</button>
               </div>
             </div>
@@ -57,7 +57,7 @@
               </div>
               <div class="detalles">
                 <p><%= productos[2].titulo %></p>
-                <p class="precio"><%= productos[2].precio %></p>
+                <p class="precio">$<%=toThousand(productos[2].precio) %></p>
                 <button type="reset">Eliminar</button>
               </div>
             </div>
@@ -71,14 +71,15 @@
         <div class="derecha">
           <div class="derecha-arriba">
             <div class="logo">
-              <img src="images/logop.png" />
+              <img src="images/logo.png" />
             </div>
           </div>
           <div class="derecha-abajo">
-            <p>Precio lista: 10.000</p>
-            <p>Descuentos: 5.000</p>
-            <p>Sub-total: 5.000</p>
-            <p>Total: 5.000</p>
+            <% let precioTotal = parseInt(productos[0].precio) + parseInt(productos[1].precio) + parseInt(productos[2].precio) %>
+            <p>Precio lista: $<%=toThousand(precioTotal)%></p>
+            <% let descuentoTotal = (parseInt(productos[0].descuento) + parseInt(productos[1].descuento) + parseInt(productos[2].descuento))* precioTotal / 100 %>
+            <p>Descuentos: $<%= toThousand(descuentoTotal) %> </p>
+            <p>Total: $<%= toThousand( precioTotal - descuentoTotal) %></p>
             <div class="boton">
               <button type="submit">Realizar compra</button>
             </div>
