@@ -25,7 +25,7 @@ const controller = {
 		// Atrapo todos los campos del formulario
 		const newProduct = {
 			...req.body,
-			image: '/images/EscritorioEstructuraMetal.jpg'
+			img:req.file ?  req.file.filename  : 'notFound.png'
 		}
 		productModel.create(newProduct)
 		console.log('cree un nuevo producto')

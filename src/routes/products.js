@@ -1,6 +1,8 @@
 // ************ Require's ************
 const express = require('express');
 const router = express.Router();
+const multerMiddleware = require('../multer/multer')
+const uploadFile = multerMiddleware('images','product');
 
 // ************ Controller Require ************
 const productsController = require('../controllers/productsController');
@@ -10,7 +12,7 @@ const productsController = require('../controllers/productsController');
 
 /*** CREATE ONE PRODUCT ***/ 
 router.get('/create', productsController.create); 
-router.post('/', productsController.store); 
+router.post('/', uploadFile.single('img'),productsController.store); 
 
 
 /*** GET ONE PRODUCT ***/ 

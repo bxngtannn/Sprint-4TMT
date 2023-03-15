@@ -101,7 +101,7 @@
         <div class="izquierda-create">
           <img src="images/logo2.png" width="200px" height="200px" />
         </div>
-        <form class="derecha-create" action="/products" method="POST">
+        <form class="derecha-create" action="/products" method="POST" enctype="multipart/form-data">
           <span class="titulo">Nuevo producto</span>
           <div class="form-section">
             <input type="text" placeholder="Nombre del producto" name="titulo" class="textBox-1" id="nombreDeProducto"
@@ -112,7 +112,11 @@
           </div>
           <div class="form-section" id="precio-img">
             <input type="number" id="precio" name="precio" placeholder="Precio" required />
-            <button class="agregarImg">Seleccione una imagen</button>
+            <input type="number" id="descueto" name="descuento" placeholder="Descuento"/>
+            <input type="number" id="cuota" name="cuotas" placeholder="cuota"/>
+          </div>
+          <div class="form-section" id="img">
+            <input class="agregarImg" name="img" type="file"></input>
           </div>
           <div class="form-section" id="color">
             <span>Color</span>
