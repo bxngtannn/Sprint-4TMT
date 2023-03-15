@@ -27,14 +27,18 @@
                         </h3>
                     </div>
                     <div class="precio">
-                        <span style="text-decoration: line-through; color: rgb(227, 59, 59);">
-                            $<%=toThousand(producto.precio) %>
-                        </span>
-                        <span style="color: rgb(59, 227, 73);">
-                            <%=parseInt(producto.descuento) %>%OFF
-                        </span>
-                        <h2>$<%=toThousand(producto.precio-((producto.precio*producto.descuento) /100)) %>
-                        </h2>
+                        <% if (producto.descuento>0) { %>
+                            <div class="precio">
+                               <span style="text-decoration: line-through; color: rgb(227, 59, 59);">
+                                   $<%=toThousand(producto.precio) %>
+                               </span>
+                               <span style="color: rgb(59, 227, 73);"><%=toThousand(producto.descuento) %>%OFF</span>
+                                   <h2 >$<%=toThousand(producto.precio-((producto.precio*producto.descuento)/100)) %>
+                                   </h2>
+                           </div>
+                           <% } else { %>
+                               <h2 style="text-align: center;">$<%=toThousand(producto.precio) %></h2>
+                           <% } %>
                     </div>
                     <div class="botones">
                         <a href="/productCart"><span class="botom"> Agregar al carrito <img
@@ -46,70 +50,37 @@
                             </form>
                             <button class="mueble botom editar" onclick="mostrarPopup()">Editar</button>
                         </div>
-                        <% if (producto.descuento>0) { %>
-                                                 <div class="precio">
-                            <span style="text-decoration: line-through; color: rgb(227, 59, 59);">
-                                $<%=toThousand(producto.precio) %>
-                            </span>
-                            <span style="color: rgb(59, 227, 73);"><%=toThousand(producto.descuento) %>%OFF</span>
-                                <h2 >$<%=toThousand(producto.precio-((producto.precio*producto.descuento)/100)) %>
-                                </h2>
+                    </div>
+                    <h2>Descripcion</h2>
+                    <div class="descripcion">
+
+                        <p>
+                            <%= producto.descripcion %>
+                        </p>
+                    </div>
+
+
+
+
+
+
+                    <div class="formulario-edit" id="edit">
+                        <div class="izquierda-create">
+                            <img src="/images/logo2.png" width="200px" height="200px" />
                         </div>
-                        <% } else { %>
-                            <h2 style="text-align: center;">$<%=toThousand(producto.precio) %></h2>
-                        <% } %>
-                         
-
-                        <div class="botones">
-                                         <a href="/productCart"><span class="botom"> Agregar al carrito <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQlJREFUSEvNlMEVATEQhr+tgBKoAB1QAR3gygEdUAEXrqgAHVABKkAFqIA33mbf2pVNWPHMNZP55s8/Ew/H4Tmuz08BN1/NBZgBvW+oCytQAFW3AqzTQl49URcYAiug5gKQBc5+4TxwTAPRmSwe1FMU3gElua8DFIFtCsAJyCUB5Ey6KGggqrHoYKj0AdA3ARrA9ENA4J1p0WQnMiGILj+sZAOU1R0TYAR03gQ0/UV9XDMBxKjDi2fSeXD1zRXlVgBJWgLVCEQHmAPiXRAmBZIo27ywHNnY92IDMI2sYu8B2Z+nsAVYCoin2QLGQAuYAO1ImaQz4xSpWuE5jzaVdGYNcK7AuQf/C7gDNOwuGTttIPQAAAAASUVORK5CYII="/></span></a>
-                                        <div class="bot-carrito delet">
-                                            <form action="/products/delete/<%producto.id %>?_method=DELETE" method="POST" class="form-delete">
-                                                <button type="submit"  class="action-button delete botom">ELIMINAR</button>
-                                            </form>
-                                            <button class="mueble botom editar" onclick="mostrarPopup()">Editar</button>
-                                        </div>
-                        </div>
-                        <h2>Descripcion</h2>                            
-                        <div class="descripcion">
-
-                                <p>
-                                    <%= producto.descripcion %>
-                                    </p>
-                         </div>
-
-
-
-
-
-
-                                    <div class="formulario-edit" id="create">
-                                        <div class="izquierda-create">
-                                            <img src="/images/logo2.png"
-                                                width="200px" height="200px" />
-                                        </div>
-                                        <form class="derecha-create"
-                                            action="/products/edit/<%=
-                                            producto.id %>?_method=PUT"
-                                            method="POST">
-                                            <span class="titulo">Actualizar
-                                                datos</span>
-                                            <div class="form-section">
-                                                <input type="text"
-                                                    placeholder="Nombre del
-                                                    producto" name="titulo"
-                                                    class="textBox-1"
-                                                    id="nombreDeProducto"
-                                                    value="<%= producto.titulo%>"
-                                                />
-                                            </div>
-                                            <div class="form-section">
-                                                <input type="texto"
-                                                    name="category" value="<%=
-                                                    producto.categoria %>"
-                                                style="display: none;"/>
-                                                <textarea id="descripcion"
-                                                    name="descripcion"
-                                                    placeholder="descripcion"><%=
+                        <form class="derecha-create" action="/products/edit/<%=
+                                            producto.id %>?_method=PUT" method="POST">
+                            <span class="titulo">Actualizar
+                                datos</span>
+                            <div class="form-section">
+                                <input type="text" placeholder="Nombre del
+                                                    producto" name="titulo" class="textBox-1" id="nombreDeProducto"
+                                    value="<%= producto.titulo%>" />
+                            </div>
+                            <div class="form-section">
+                                <input type="texto" name="category" value="<%=
+                                                    producto.categoria %>" style="display: none;" />
+                                <textarea id="descripcion" name="descripcion" placeholder="descripcion"><%=
                                                         producto.descripcion %></textarea>
                             </div>
                             <div class="form-section" id="precio-img">
@@ -150,7 +121,6 @@
                                     producto</button>
                                 <span class="agregar" id="cancel" onclick="cancel()">Cancelar</span>
                             </div>
-
                         </form>
                     </div>
                     <div class="cuadroNegro" id="negro"></div>
@@ -172,12 +142,10 @@
                     document.getElementById("edit").style.display = "flex";
                     document.getElementById("negro").style.display = "block";
                 }
-
                 function cancel() {
                     document.getElementById("edit").style.display = "none";
                     document.getElementById("negro").style.display = "none";
                 }
-
             </script>
 </body>
 
