@@ -96,24 +96,25 @@
                 </div>
                 <div class="logoResponsive">
                     <img src="/images/logo.png" alt="logo TMT" width="100vw">
-                </div>
+                </div> 
+                
             </div>
         </div>
+        <div class="cuadroNegro" id="negro"></div>
         <script>
             function mostrarPopup() {
-                // document.getElementById("dropdownRes").style.display = "flex";
                 document.getElementById("dropdownRes").style.transform = "translateX(100%)";
                 document.getElementById("dropdownRes").style.transition = "transform 1s ease-in-out";
                 document.getElementById("iconoMenuDespl").style.display = "none";
                 document.getElementById("iconoMenuDesplCierre").style.display = "flex";
+                document.getElementById("negro").style.display = "flex";
                 document.getElementById("body").style.overflow = "hidden";
             }
 
             function cancel() {
-                // document.getElementById("dropdownRes").style.display = "none";
                 document.getElementById("dropdownRes").style.transform = "translateX(0%)";
                 document.getElementById("iconoMenuDespl").style.display = "flex";
-                document.getElementById("iconoMenuDesplCierre").style.display = "none";
+                document.getElementById("negro").style.display = "none";
                 document.getElementById("body").style.overflow = "scroll";
             }
 
